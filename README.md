@@ -1,6 +1,6 @@
 # README
 
-This is a Rails app setup as an (API)[https://guides.rubyonrails.org/api_app.html] for the backend, with a Next.js app on the frontend.
+This is a Rails app setup as an [API](https://guides.rubyonrails.org/api_app.html) for the backend, with a [Next.js](https://nextjs.org/) app on the frontend.
 
 ## Backend
 
@@ -14,12 +14,12 @@ The backend is quite limited, with:
 
 ## Frontend
 
-This is a (Next.js app)[https://nextjs.org/] with (Tailwind CSS)[https://tailwindcss.com/] integrated.
+This is a Next.js app with [Tailwind CSS](https://tailwindcss.com/) integrated.
 
 I've gone for a fairly simple approach:
 
 - Main page `page.js`, which handles the fetching of all users using `axios`. These populate a dropdown from which the `user` is set. This then fires off a request to the api to pull the menu data for that user.
-- This data is passed on to a `Menu` component which handles the menu part of the data and loads it into a clickable tooltip using (react-tooltip)[https://react-tooltip.com/docs/getting-started]
+- This data is passed on to a `Menu` component which handles the menu part of the data and loads it into a clickable tooltip using [react-tooltip](https://react-tooltip.com/docs/getting-started)
 - The hat part of the data is then passed on to a `Logo` component which handles the logic for which image to display and adds a tooltip to the left of the logo with the provided message.
 
 ## How to run
