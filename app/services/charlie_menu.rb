@@ -45,11 +45,11 @@ class CharlieMenu < Service
   end
 
   def birthday
-    (Date.today - user.dob) / 365 == 0
+    Date.today.month == user.dob.month && Date.today.day == user.dob.day
   end
 
   def anniversary
-    (Date.today - user.employment_started_at) / 365 == 0
+    Date.today.month == user.employment_started_at.month && Date.today.day == user.employment_started_at.day
   end
 
   def halloween
