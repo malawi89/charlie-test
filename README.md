@@ -38,20 +38,3 @@ Switch into the frontend `cd charlie-frontend`
 `yarn dev` to start the frontend client
 This will run on `localhost:3001`
 
-- Ruby version
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
